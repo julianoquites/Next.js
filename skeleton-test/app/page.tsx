@@ -24,7 +24,7 @@ export default async function Home() {
   return (
     <main className=' m-12 rounded-md grid grid-cols-4 gap-12'>
       {games.map((game) => (
-        <div className='bg-gray-100 p-8 col-span-4 xl:col-span-2' key={game.id}>
+        <div className='bg-white p-8 col-span-4 xl:col-span-2' key={game.id}>
           <h1>{game.name}</h1>
           <p className='font-bold text-sm mb-4'>Rating: {game.rating}</p>
           <div className='aspect-video relative'>
